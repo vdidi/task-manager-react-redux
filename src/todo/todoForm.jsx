@@ -20,7 +20,7 @@ const TodoForm = props => {
       <Grid cols='12 9 10'>
         <input id='description' className='form-control'
           placeholder='Adicione uma tarefa'
-          onChange={props.handleChange}
+          onChange={props.changeDescription}
           onKeyUp={keyHandler}
           value={props.description}></input>
       </Grid>
